@@ -1,0 +1,52 @@
+Lab 01 - ISE - Instalación de ODOO
+Alumno: Palo Rosas Jesus Abdon
+Especialidad: C-15
+Grupo: B
+
+-------------------------------------------------------------------------
+Ejercicio 2.5.-
+
+	Portal de ODOO .- Imagen odoo_web.PNG
+
+Ejercicio 2.6.-
+	
+	Conectando a bd PostgreSQL .- Imagen pgadmin_connect.PNG
+	
+	Conexión establecida .- Imagen pg.PNG
+
+		
+
+Tarea.-
+
+Modulos ODOO
+
+1.- CRM: Módulo que permite obtener un panorama de la empresa y recoger información para una buena toma de decisiones, usando informes en tiempo real y diagramas de flujo que se pueden compartir.
+
+2.- Proyecto: Módulo para la organización de empleados y planificación de tareas. También supervisa la carga de trabajo y estado de las tareas individuales
+
+3.- Gestión de Inventario: Módulo de gestión de almacenes. Ofrece un eficiente sistema de inventario de doble entrada junto con un sistema de trazabilidad de existencias y suministros.
+
+4.- Punto de Venta: Módulo de ventas online y offline. Controla en tiempo real la gestión de adquisiciones e inventario. 
+
+5.- Constructor de Sitios Web: Módulo para montar un sitio web con diversas funcionalidades que se pueden añadir a medida que el negocio crezca, como: empleos, comercio electrónico, portal para clientes, eventos, etc.
+
+Principales productos ERP
+
+1.- SAP All in One --- SAP --- Es el ERP más utilizado entre las grandes empresas. Antes conocido como SAP R/3, se considera un valor seguro dada su potencia, lo que convence a las grandes multinacionales que tienen recursos para su implantación y pueden asumir importantes costes de formación a usuarios para poder dominar una herramienta muy compleja.
+
+2.- Oracle EBS --- Oracle --- Oracle E-Business Suite es el segundo ERP más utilizado a nivel mundial, también llamado Oracle Applications ya que integra diferentes productos de la misma casa, que es a su vez el primer fabricante de soluciones informáticas de negocio de distinto tipo. 
+
+3.- Microsoft Dynamics NAV --- Microsoft --- Dynamics NAV ofrece una garantía total en sectores relacionados con la producción y la distribución, siendo este tipo de compañías las que más utilizan el sistema en Europa, independientemente de su tamaño.
+
+Conclusiones.- 
+
+•	Se descargó el instalador de Odoo desde la página principal. La versión usada es 11.0.
+•	Se instalo el componente All in One que incluye el servidor de Odoo y la base de datos PostgreSQL.
+•	Se configuró la conexión de la base de datos PostgreSQL localmente, usando el puerto 5432 y asignando un usuario y contraseña.
+•	Luego de iniciar Odoo, ingresamos por el puerto 8069 para crear una base de datos. Odoo solicita un nombre para la bd, un correo, una contraseña y especificar la localidad e idioma.
+•	Luego de acceder al portal de Odoo, usando las credenciales creadas durante la instalación, se nos muestra las aplicaciones disponibles para instalar y usar.
+•	Instalamos pgAdmin para poder gestionar la base de datos PostgreSQL que creamos con Odoo.
+•	Odoo ofrece miles de módulos para usar con distintos fines, ya sea la gestión de una empresa, marketing, programación, sitios web, etc.
+•	Odoo también ofrece aplicaciones hechas por la comunidad, algunas de pago y otras gratis.
+•	Las aplicaciones de Odoo pueden trabajar independientemente o integrarse entre varios módulos para ofrecer un panorama más completo de administración.
+

@@ -1,0 +1,82 @@
+Lab 02 - ISE - Administración de Módulos ODOO
+Alumno: Palo Rosas Jesus Abdon
+Especialidad: C-15
+Grupo: B
+
+-------------------------------------------------------------------------
+
+Ejercicio 3.6 .-
+	
+	Filtros "Aplicacion" e "Instalado" .- Imagen ejerc3.6.PNG
+
+Ejercicio 4 .-
+
+	Tablero 1 .- Gestión de ausencias
+	Tablero 2 .- Punto de venta
+	Tablero 3 .- Gestión de facturas
+
+Ejercicio 4.5 .-
+
+	Modo desarrollador .- Imagen ejerc4.5.PNG
+
+Ejercicio 5.8 .-
+
+	Carpeta testmodulo1 .- Imagen ejerc5.8.PNG
+
+Ejercicio 5.9 .-
+
+	Archivo __init__.py .- Imagen ejerc5.9.PNG
+
+Ejercicio 5.10 .-
+
+	Archivo __manifest__.py .- Imagen ejerc5.10.PNG
+
+Ejercicio 5.13 .-
+
+	Módulo testmodulo1 .- Imagen ejerc5.13.PNG
+
+Ejercicio 5.14 .-
+
+	Testmodulo1 instalado .- Imagen ejerc5.14.PNG
+
+Ejercicio 5.16 .-
+
+	Testmodulo1 desinstalar .- Imagen ejerc5.16.PNG
+	
+Ejercicio 5.17 .-
+
+	Testmodulo1 desinstalado .- Imagen ejerc5.17.PNG
+
+
+Tarea.-
+
+ - __init__.py : Determina los archivos XML que serán convertidos durante la inicialización. Determina las dependencias del módulo creado
+
+ - __manifest__.py : Contiene la información del módulo como su nombre, resumen, descripcion, autor, sitio web, tags, categoria y version
+
+ - controllers: Contiene los archivos que servirán para definir las rutas del módulo
+
+ - demo: Contiene un script de llenado de data a modo de demostración.
+
+ - models: Para definir los modelos de clase junto con atributos y funciones.
+
+ - security: Contiene los permisos para los modelos y archivos.
+
+ - views: Contiene las vistas y los registros del modelo a ser mostrado. Cada tipo de vista representa un modo de visualización.
+
+Conclusiones.-
+
+ - Odoo ofrece distintos módulos que se complementan entre si
+
+ - Odoo cuenta con una barra de búsqueda que permite buscar módulos y aplicaciones usando distintos tipos de filtros superpuestos.
+
+ - La instalación de un módulo de Odoo es fácil y rápida, requiriendo solo una refresh del sistema.
+
+ - Para la creación de un módulo en Odoo, primero debemos activar el modo desarrollador que se encuentra en la configuración de Odoo.
+
+ - La estructura de un módulo Odoo contiene diferentes carpetas junto con archivos python y xml, que se encargan de proveer función a dicho módulo.
+
+ - Para que aparezca el módulo creado en el panel de aplicaciónes, primero se debe a actualizar la lista de estas.
+
+ - La desinstalación de un módulo en Odoo tambien es intuitiva y rápida
+
