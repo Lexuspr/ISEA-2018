@@ -1,0 +1,104 @@
+Lab 03 - ISEA - CRM EN ODOO
+Alumno: Palo Rosas Jesus Abdon
+Especialidad: C-15
+Grupo: B
+
+-------------------------------------------------------------------------
+
+Ejercicio 4.10 .-
+	
+	Nuevo cliente .- Imagen ejerc4.10.PNG
+
+Ejercicio 5.11 .-
+
+	Miembros del equipo .- Imagen ejerc5.11.PNG
+
+Ejercicio 5.12 .-
+
+	Ventas directas .- Imagen ejerc5.12.PNG
+
+Ejercicio 6.2 .-
+
+	Flujo de ventas. Nuevo contacto creado .- Imagen ejerc6.2_flujo_ventas.PNG
+	Nueva iniciativa .- Imagen ejerc6.2_iniciativa.PNG
+	Convertido a oportunidad.- Imagen ejerc6.2_oportunidad.PNG
+
+Ejercicio 6.3 .-
+
+	Nueva oportunidad .- Imagen ejerc6.3.PNG
+
+Ejercicio 7.11 .-
+
+	Mensaje creación de contacto .- Imagen ejerc7.11.PNG
+
+Ejercicio 7.12 .-
+
+	Verificar iniciativa registrada .- Imagen ejerc7.12.PNG
+
+Ejercicio 7.15 .-
+
+	Nueva oportunidad .- Imagen ejerc7.15.PNG
+
+Ejercicio 7.16 .-
+
+	Oportunidad calificada .- Imagen ejerc7.16.PNG
+	
+Ejercicio 7.17 .-
+
+	2 nuevas oportunidades .- Imagen ejerc7.17.PNG
+
+
+Tarea.-
+
+ I.- Importar contactos csv.-
+
+	En Odoo CRM, se puede importar una base de datos de clientes potenciales, por ejemplo para una campaña de llamadas o de correos electrónicos para dar información de la empresa, a través de un archivo CSV. 
+
+	Paso 1.- Activar el estado de iniciativa
+		
+		Imagen importar_contactos_paso1.PNG
+
+	Paso 2.- En la ventana de Iniciativas hacer clic en Importar
+
+		Imagen importar_contactos_paso2.PNG
+
+	Paso 3.- Seleccionamos el archivo .csv que deseamos importar y configuramos la codificación y el separador
+		
+		Imagen importar_contactos_paso3.PNG
+
+	Paso 4.- Seleccionamos las filas para importar y damos clic a validar para ver que todo esta bien
+
+		Imagen importar_contactos_paso4.PNG
+
+	Paso 5.- En caso todo este bien damos clic a Importar
+
+		Imagen importar_contactos_paso5.PNG
+
+
+ II.- Módulo Website
+
+	Se agregó un deslizador de imagenes dentro del cual se adjunto un recurso multimedia que apunta a un link de video en Youtube.
+	
+	Se agregó un área debajo del deslizador que contiene texto y un botón de redirección.
+		
+		Imagen website.PNG
+	
+Conclusiones.-
+
+ - Odoo ofrece distintos módulos que se complementan entre si
+
+ - El módulo de CRM de Odoo permite administrar nuestros contactos, así como iniciativas y posibles oportunidades y generar reportes de estas.
+
+ - Mediante el módulo es posible guardar contactos como iniciativas, posteriormente convertirlas en oportunidades ganadas o perdidas.
+
+ - Durante la instalación del módulo, Odoo nos ofrece una serie de pasos en los cuales podemos definir los puntos principales del negocio, con los cuales Odoo nos ayudará a cumplir los objetivos y expectativas planteadas.
+
+ - El módulo CRM ofrece una interfaz intuitiva para la creación de clientes junto con datos personales que Odoo considera relevantes para la empresa. 
+
+ - Es posible añadir productos, clientes, contactos, iniciativas desde cero o importar esa información desde otro sistema mediante archivos .csv
+
+ - En la última versión de Odoo se permite la importación de datos mediante archivos .csv, en cambio no es posible la exportación.
+
+ - Para la importación de contactos, estos deben estar correctamente ordenados en cuanto a las columnas que corresponden con el modelo actual. El módulo no ofrece un esquema para el ordenamiento de estas columnas.
+
+
