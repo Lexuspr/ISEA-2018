@@ -1,0 +1,45 @@
+Lab 05 - ISEA - TALLER DIRIGIDO
+Alumno: Palo Rosas Jesus Abdon
+Especialidad: C-15
+Grupo: B
+
+-------------------------------------------------------------------------
+
+2.- CREACIÓN DE UN NUEVO MÓDULO EN ODOO
+	
+	2.5 MODULO IMPLEMENTADO
+		
+		- LISTADO ALUMNOS.- Captura ejerc2.5_LISTADO_ALUMNOS.PNG
+		- LISTADO MÓDULOS.- Captura ejerc2.5_LISTADO_MODULOS.PNG
+
+3.- DOCUMENTACIÓN CREACIÓN DE MODELOS EN UN NUEVO MÓDULO
+
+	PASO 1.- En la carpeta de nuestro módulo, en la carpeta models, se encuentra el archivo models.py. En este archivo se encuentran los modelos pertenecientes a nuestro módulo.
+	
+	PASO 2.- En este archivo los modelos se tratan como clases, por lo tanto para crear un nuevo modelo, crearemos una nueva clase.
+
+	PASO 3.- La clase consta de un atributo obligatorio llamado "_name", el cual viene a ser el id de la clase con la cual podremos hacer referencia desde otros archivos.
+	
+	PASO 4.- Luego se agregan los atributos del modelo a los cuales se tiene que especificar de que tipo son. Estos tipos vienen de la clase fields. Pueden ser Char, Integer, Date, Text. En el constructor de este tipo, por ejemplo Char, puede ir en un string el nombre del atributo que se visualizará en la web.
+
+	PASO 5.- Luego de terminar de crear los atributos, respetando la identación, se guardan los cambios y se procede a reiniciar los servicios de Odoo y PostgreSQL. Primero se detiene el servicio de Odoo, luego se reinicia el servicio de PostgreSQL y finalmente se vuelve a iniciar el servicio de Odoo. Con esto los cambios surtirán efecto.
+
+4. APLICACION
+
+	4.2 Modelo entidad - relacion .- Captura ejer4_MER.PNG
+	4.4 	Matriculas alumno .- Captura ejerc4.4_alumnos.PNG
+		Matriculas area   .- Captura ejerc4.4_areas.PNG
+
+TAREA
+
+	1. PETI
+		Son las siglas de Plan Estratégico de Tecnologías de la Información. Es un documento que define la estrategia bajo la cual se espera que las Tecnologías de la Información se integren con la misión, visión y objetivos de una organización
+
+CONCLUSIONES
+
+	- PETI es una metodología que, durante el desarrollo de sus fases, establece buenas practicas a implementarse para asegurar la administración y los recursos de TI.7
+	- Cada módulo desarrollado en Odoo consta de un manifest donde van declarados información acerca del módulo (descripción, autor, versión) y las vistas que se cargarán ( views/alumnos.xml).
+	- En el archivo models.py se encuentran los modelos que vienen a ser las tablas del módulo (alumnos, areas). Cada modelo contiene un name que actua como identificador junto con sus atributos.
+	- Se crea una vista para cada modelo, las vistas contienen la forma en que se reparten los elementos en la interfaz, titulos y opciones. Cada elemento tiene un identificador propio de la vista en la que está.
+	- En caso se hagan cambios en las vistas del módulo, solo será necesario actualizar el módulo correspondiente en la parte de Aplicaciones. Si se realizan cambios al modelo, entonces se deberá reiniciar los servicios de Odoo y PostgreSQL para que los cambios surtan efecto.
+	
