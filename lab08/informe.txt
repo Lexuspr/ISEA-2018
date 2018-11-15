@@ -1,0 +1,16 @@
+Lab 08 - ISEA - Configuración Básica Ventas y CRM
+Alumno: Palo Rosas Jesus Abdon
+Especialidad: C-15
+Grupo: B
+
+-------------------------------------------------------------------------
+
+1. Empresa con logo de Tecsup y datos regionales
+
+	Captura.- datos_compañia.PNG
+
+2. Modificación Plantilla de Pedido de Compra y Reporte
+	
+	Captura.- plantilla_pedido_compra.PNG
+
+	Captura.- reporte_pedido_compra.PNG
