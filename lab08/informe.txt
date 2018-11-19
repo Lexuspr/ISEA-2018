@@ -14,3 +14,31 @@ Grupo: B
 	Captura.- plantilla_pedido_compra.PNG
 
 	Captura.- reporte_pedido_compra.PNG
+
+3. 5 ventas en el módulo de Ventas a 3 clientes distintos
+
+	Captura.- ventas_5.JPG
+
+4. Entrega parcial de 2 ventas y entrega completa de 3
+
+	Captura.- por_entregar.JPG
+
+5. Cobro total y cobro parcial
+
+	Saldo pendiente.- con_saldo.JPG
+	Cobrado totalmente.- pagado_t1.JPG
+			     pagado_t2.JPG
+
+6. 3 Oportunidades
+
+	Captura.- oportunidades.JPG
+
+7. Conclusiones
+
+	- Es posible cambiar en cualquier momento la información referente a la compañia que se esta representando, incluyendo su logo y datos regionales. 
+	- Aunque estos cambios se guarden, puede que en algunas vistas siga apareciendo el logo de Odoo por defecto.
+	- Es posible modificar las plantillas predeterminadas como las de Pedido de Compras, añadiendo información relevante o quitando campos que no se necesitan. Lo mismo con los reportes generados.
+	- En el módulo de ventas, el proceso comienza con una cotización. Dicha cotización refleja los datos del cliente que solicita la cotización, la fecha de caducidad, el plazo de pago y los productos cotizados.
+	- Las cotizaciones se pueden imprimir o enviar por email al cliente. Una vez aprobadas, se confirma la venta y pasa a ser una orden de venta. Esta orden de venta llega al repartidor para entregar al cliente la cantidad exacta de productos o solo la parte disponible.
+	- Antes o despues de realizado el despacho, se puede registrar el pago por la venta. Este puede ser en su totalidad, o dejando un saldo pendiente. En todo caso se genera una factura que se puede imprimir o enviar por correo.
+	- El módulo CRM permite organizar el proceso de ventas en iniciativas, que pueden pasar a ser oportunidades y estas en ventas consumadas. Esto con la finalidad de aprovechar cada interacción con el cliente y aumentar el indice de ventas.

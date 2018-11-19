@@ -1,0 +1,61 @@
+Lab 09 - ISEA - Configuración Básica Módulos de Terceros
+Alumno: Palo Rosas Jesus Abdon
+Especialidad: C-15
+Grupo: B
+
+-------------------------------------------------------------------------
+
+1. Odoo iniciado en modo consola
+
+	Captura.- odoo_consola.JPG
+
+2. Carpeta para módulos de terceros creada
+	
+	Captura.- carpeta_terceros.JPG
+
+3. Odoo web login instalado
+
+	Captura.- modulo_instalado.JPG
+	Captura.- nuevo_login.JPG
+
+4. Instalar tema de Odoo
+
+	Captura.- tema_nuevo.JPG
+
+5. Modulo para descargar en Excel el stock actual
+
+	Export Product Stock in Excel by Cybrosys Techno Solutions 
+	Captura.- modulo_excel.JPG
+
+	Dependencias: Módulo base report xlsx
+	Requisitos: xlsxwriter y xlrd
+	
+	Captura.- xlsxwriter.JPG
+		  xlrd.JPG
+
+	Módulo instalado
+	Captura.- excel_instalado.JPG
+
+	Exportar inventario
+	Captura.- odoo_export_excel.JPG
+
+
+6. Módulo ubigeos
+
+	Toponimos del Peru by Odoo Peru	
+	Captura.- modulo_ubigeo.JPG
+
+	Probando el módulo creando un nuevo proveedor con datos locales.
+	Captura.- prueba_ubigeo.JPG
+
+7. Conclusiones
+
+	- Es posible iniciar el servicio de odoo accediendo al archivo odoo-bin con python desde la consola. Esto sirve para visualizar la actividad del servicio en tiempo real y para detectar y analizar errores.
+
+	- En el archivo odoo.conf se especifica el host de la base de datos, el puerto, el usuario y su respectiva contraseña, asi como la ruta de la carpeta donde se leeran los módulos existentes. Pueden ser más de una ruta, teniendo como prioridad la primera de estas.
+
+	- En la tienda oficial de Odoo, existen módulos enfocados solo a ciertas partes del sistema Odoo, como son módulos para cambiar el estilo de la vista del login, la mayoria siendo de paga.
+
+	- Tambien existen módulos para obtener reportes de inventario en formatos de archivos distintos como libros de Excel. Ciertos módulos requeriran de otros módulos como dependencias que se deberán instalar primero. En algunos casos tambien requeriran de la instalación de librerias de python.
+
+	- En la tienda de Odoo tambien se incluyen módulos de información regional, que añaden datos como idiomas, monedas, ciudades, distritos acorde a la región deseada. 
