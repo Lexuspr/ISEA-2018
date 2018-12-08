@@ -1,0 +1,38 @@
+Lab 10 - ISEA - Creacion de Modelos Avanzado
+Alumno: Palo Rosas Jesus Abdon
+Especialidad: C-15
+Grupo: B
+
+-------------------------------------------------------------------------
+
+1. Creacion de curso
+
+	Captura.- crear_curso.JPG
+
+2. Creacion de instructor
+	
+	Captura.- crear_instructor.JPG
+
+3. Creacion de sesion
+
+	Captura.- crea_sesion.JPG
+
+4. Contactos
+
+	Captura.- contactos.JPG
+
+5. Contacto Administrator
+
+	Captura.- contacto_administrator.JPG
+
+6. Crear contact tags
+
+	Captura.- tag_crear.JPG
+
+7. Conclusiones
+
+	- Se realizó la creacion de un modulo personalizado en Odoo para la gestion de cursos, contactos como alumnos y profesores.
+	- En este módulo se trabajaron relaciones entre modelos de tipo many2many y many2one y a distinguir usarlos en escenarios correctos.
+	- Cuando se realizan cambios en la vista, para que estos hagan efecto, solo es necesario actualizar el módulo
+	- Si se realizan cambios a los modelos en Python, es necesario tambien reiniciar el servicio de base de datos.
+	- La realización del módulo mediante tutoriales en Youtube facilita el proceso de entender su desarrollo y estructuración, mas que seguir solo pasos de un laboratorio

@@ -1,0 +1,25 @@
+Lab 11 - ISEA - Vistas Avanzado
+Alumno: Palo Rosas Jesus Abdon
+Especialidad: C-15
+Grupo: B
+
+-------------------------------------------------------------------------
+
+1. Estilos sesiones
+
+2. Vista calendario
+
+3. Vista kanban
+
+4. Filtros personalizados
+
+5. Reportes personalizados
+
+	
+6. Conclusiones
+
+	- Es posible modificar los estilos de un modelo de vistas de un módulo de Odoo.
+	- Se agregaron vistas de calendario para obtener los registros de acuerdo a un dia del año
+	- Se agregaron identificadores como colores de los instructores que se pueden visualizar en la vista calendario.
+	- Ser realizaron vistas para gráficos y kanban.
+	- La generación de reportes se realizó de manera manual, generandolo con atríbutos propios y usando datos del módulo.
